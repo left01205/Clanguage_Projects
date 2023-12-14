@@ -1,0 +1,16 @@
+#include <math.h>
+#define PI 3.1416
+int main()
+{
+    float area, circm, radius, diameter;
+
+    diameter = radius * 2;
+    area = PI * radius * radius;
+    circm = 2 *  PI * radius;
+    int printf("Enter the required Radius =  ");
+    int scanf("%f",&radius);
+
+    printf("Given Radius  %f=",radius,"\n Diameter  %f=",diameter,"\n Circumfrence of circle of given radius  %f=",circm,"\n Area of given circle of given radius %f= ",area);
+    printf("...End of program...");
+    return 0;
+    }
