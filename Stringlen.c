@@ -7,6 +7,6 @@ void main ()
     printf("Enter the string:\n ");  
     gets(s); 
     printf("You entered %s\n",s);
-    int a=strlen(s);
+    int a=strlen(s)/4;
     printf("length of given string is %d",a);  
 }
